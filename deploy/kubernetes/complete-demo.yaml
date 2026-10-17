@@ -276,7 +276,7 @@ spec:
         ports:
         - containerPort: 8079
         env:
-        - name: SESSION_REDIS
+        - name: FRONTEND_SESSION_STORE
           value: "true"
         securityContext:
           runAsNonRoot: true
